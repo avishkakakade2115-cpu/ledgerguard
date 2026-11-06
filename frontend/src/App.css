@@ -1,0 +1,30 @@
+.welcome-panel {
+  width: min(100%, 42rem);
+  margin: auto;
+  padding: clamp(2rem, 7vw, 5rem) 0;
+  text-align: center;
+}
+
+.welcome-panel__eyebrow {
+  margin: 0 0 1rem;
+  color: var(--color-accent);
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.welcome-panel h1 {
+  margin: 0;
+  color: var(--color-heading);
+  font-size: clamp(2.25rem, 6vw, 4rem);
+  letter-spacing: -0.055em;
+  line-height: 1.08;
+}
+
+.welcome-panel > p:last-child {
+  max-width: 34rem;
+  margin: 1.25rem auto 0;
+  color: var(--color-muted);
+  font-size: 1.0625rem;
+}
